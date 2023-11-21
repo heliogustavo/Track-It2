@@ -66,9 +66,9 @@ export default function SignUpPage() {
                 />
                 <StyledInput
                     name="image"
-                    placeholder="foto"
-                    type="url"
+                    placeholder="Foto: Cole o link de uma img"
                     required
+                    type="url"
                     disabled={isLoading}
                     value={form.image}
                     onChange={handleForm}
