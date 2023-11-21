@@ -18,3 +18,9 @@ module.exports = {
     ],
   },
 }
+export default {
+  build: {
+    manifest: true,
+    outDir: './build',
+  },
+};
